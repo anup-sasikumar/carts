@@ -34,7 +34,6 @@ cat /var/log/mongodb/mongod.log
 
 ```
 
-
 Setup Carts App
 
 ```
@@ -74,7 +73,7 @@ java -jar target/carts.jar
 
 `GROUP=weaveworksdemos COMMIT=test ./scripts/build.sh`
 
-# Test
+# Testing
 
 `./test/test.sh < python testing file >`. For example: `./test/test.sh unit.py`
 
